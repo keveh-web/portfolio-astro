@@ -1,0 +1,110 @@
+---
+import { Icon } from "astro-icon/components";
+---
+<section class="py-24">
+  <div class="max-w-7xl mx-auto px-8 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+
+    <!-- Imagen -->
+    <div class="relative">
+      <div class="absolute -left-6 -bottom-6 w-full h-full bg-gray-200 rounded-3xl"></div>
+
+      <div class="relative rounded-3xl overflow-hidden shadow-sm">
+        <img
+          src="/office2.png"
+          alt="About image"
+          class="w-full h-[450px] object-cover"
+        />
+      </div>
+    </div>
+
+    <!-- Contenido -->
+    <div>
+      <p class="text-gray-500 uppercase tracking-wide text-sm mb-4">
+        Get to know me
+      </p>
+
+      <h2 class="text-4xl md:text-5xl font-bold mb-8">
+        About Me
+      </h2>
+
+      <p class="text-gray-600 leading-relaxed mb-6">
+        I'm a passionate full-stack developer focused on building modern,
+        scalable, and user-friendly web applications. I enjoy turning complex
+        problems into simple, elegant solutions.
+      </p>
+
+      <p class="text-gray-600 leading-relaxed mb-6">
+        My journey started with curiosity about how the web works.
+        Today, I specialize in JavaScript ecosystems, modern frameworks,
+        and performance-oriented architectures.
+      </p>
+
+      <p class="text-gray-600 leading-relaxed mb-12">
+        Outside of coding, I enjoy learning new technologies,
+        contributing to projects, and constantly refining my craft.
+      </p>
+
+      <!-- Stats -->
+<div class="grid grid-cols-2 gap-6">
+
+  <!-- Card 1 -->
+  <div class="relative overflow-hidden rounded-2xl shadow-sm border border-white/40">
+
+    <div class="absolute inset-0 bg-[url('/marble.jpg')] bg-cover bg-center"></div>
+    <div class="absolute inset-0 bg-white/80"></div>
+
+    <div class="relative p-6">
+      <Icon name="lucide:code-2" class="w-6 h-6 text-gray-800 mb-4" />
+      <p class="text-3xl font-bold text-black">1+</p>
+      <p class="text-gray-600 mt-2">Years Experience</p>
+    </div>
+
+  </div>
+
+  <!-- Card 2 -->
+  <div class="relative overflow-hidden rounded-2xl shadow-sm border border-white/40">
+
+    <div class="absolute inset-0 bg-[url('/marble.jpg')] bg-cover bg-center"></div>
+    <div class="absolute inset-0 bg-white/80"></div>
+
+    <div class="relative p-6">
+      <Icon name="lucide:folder" class="w-6 h-6 text-gray-800 mb-4" />
+      <p class="text-3xl font-bold text-black">5+</p>
+      <p class="text-gray-600 mt-2">Projects Completed</p>
+    </div>
+
+  </div>
+
+  <!-- Card 3 -->
+  <div class="relative overflow-hidden rounded-2xl shadow-sm border border-white/40">
+
+    <div class="absolute inset-0 bg-[url('/marble.jpg')] bg-cover bg-center"></div>
+    <div class="absolute inset-0 bg-white/80"></div>
+
+    <div class="relative p-6">
+      <Icon name="lucide:award" class="w-6 h-6 text-gray-800 mb-4" />
+      <p class="text-3xl font-bold text-black">5+</p>
+      <p class="text-gray-600 mt-2">Technologies Mastered</p>
+    </div>
+
+  </div>
+
+  <!-- Card 4 -->
+  <div class="relative overflow-hidden rounded-2xl shadow-sm border border-white/40">
+
+    <div class="absolute inset-0 bg-[url('/marble.jpg')] bg-cover bg-center"></div>
+    <div class="absolute inset-0 bg-white/80"></div>
+
+    <div class="relative p-6">
+      <Icon name="lucide:coffee" class="w-6 h-6 text-gray-800 mb-4" />
+      <p class="text-3xl font-bold text-black">∞</p>
+      <p class="text-gray-600 mt-2">Coffee & Mental health Consumed</p>
+    </div>
+
+  </div>
+
+</div>
+
+
+  </div>
+</section>

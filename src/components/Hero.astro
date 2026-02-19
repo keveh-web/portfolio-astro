@@ -1,0 +1,73 @@
+---
+import { Icon } from "astro-icon/components";
+---
+
+
+
+
+<section class="bg-white">
+  <div class="max-w-7xl mx-auto px-8 py-16 grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+
+    <!-- Texto -->
+    <div>
+      <p class="text-gray-600 mb-4">Hello, I'm</p>
+
+      <h2 class="text-5xl md:text-6xl font-bold tracking-tight text-gray-900">
+        Kevin Hernandez
+      </h2>
+
+      <h3 class="text-2xl text-gray-700 mt-4">
+        Full Stack Developer
+      </h3>
+
+      <p class="text-gray-600 mt-6 leading-relaxed max-w-xl">
+        I create beautiful, functional web experiences that solve real problems.
+        Specializing in React, TypeScript, and modern web technologies.
+      </p>
+
+      <!-- Botones -->
+      <div class="mt-10 flex gap-4">
+        <a href="#contact"
+          class="inline-flex items-center gap-2 bg-black text-white px-6 py-3 rounded-xl hover:bg-gray-800 transition">
+          Get In Touch <span aria-hidden="true">→</span>
+        </a>
+
+        <a href="#projects"
+          class="inline-flex items-center justify-center border border-gray-300 text-gray-900 px-6 py-3 rounded-xl hover:border-gray-400 transition bg-gradient-to-br from-gray-100 via-slate-200 to-blue-200">
+          View Projects
+        </a>
+      </div>
+
+      <!-- Iconos -->
+      <div class="mt-10 flex gap-6 text-gray-600">
+        <a href="https://github.com/tuusuario" target="_blank" class="hover:text-black transition">
+          <Icon name="lucide:github" class="w-6 h-6" />
+        </a>
+
+        <a href="https://linkedin.com/in/tuusuario" target="_blank" class="hover:text-black transition">
+          <Icon name="lucide:linkedin" class="w-6 h-6" />
+        </a>
+
+        <a href="mailto:tucorreo@email.com" class="hover:text-black transition">
+          <Icon name="lucide:mail" class="w-6 h-6" />
+        </a>
+      </div>
+    </div>
+
+    <!-- Imagen -->
+    <div class="relative">
+      <div class="absolute -left-6 -bottom-6 w-full h-full bg-gray-200 rounded-3xl"></div>
+
+      <!-- Wrapper con altura controlada (esto evita que la imagen se “desparrame”) -->
+      <div class="relative rounded-3xl overflow-hidden shadow-sm h-[420px] md:h-[520px]">
+        <img
+          src="/6571.jpg"
+          alt="Hero image"
+          class="w-full h-full object-cover"
+        />
+      </div>
+    </div>
+
+  </div>
+</section>
+
